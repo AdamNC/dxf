@@ -24,7 +24,7 @@ const polylineToPath = (rgb, polyline) => {
     acc += point[0] + ',' + point[1]
     return acc
   }, '')
-  return '<path fill="none" stroke="' + hex + '" stroke-width="0.1%" d="' + d + '"/>'
+  return '<path fill="none" stroke="' + hex + '" stroke-width="40" d="' + d + '"/>'
 }
 
 /**
